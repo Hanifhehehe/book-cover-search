@@ -31,21 +31,6 @@ export default function Home() {
     }
   }
 
-  // const handleLoadMore = async () => {
-  //   setIsLoading(true)
-  //   const newOffset = offset + 25
-  //   try {
-  //     const { books, hasMore } = await searchBooks(currentQuery, newOffset)
-  //     setSearchResults((prevResults) => [...prevResults, ...books])
-  //     setHasMore(hasMore)
-  //     setOffset(newOffset)
-  //   } catch (error) {
-  //     console.error("Error loading more books:", error)
-  //   } finally {
-  //     setIsLoading(false)
-  //   }
-  // }
-
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-gray-900 text-white">
       <h1 className="text-4xl font-bold mb-2">Book Cover Search</h1>
